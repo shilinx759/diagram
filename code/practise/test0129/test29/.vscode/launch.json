@@ -1,0 +1,33 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "test29.src.Note.Notebook.java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "console":"internalConsole",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Notebook",
+            "request": "launch",
+            "mainClass": "Notebook",
+            "console":"internalConsole",
+            "projectName": "test29",
+           
+        }
+        
+    ]
+}
